@@ -2,7 +2,7 @@ var jogo = new JogoXadrez();
 
 function init() {
 	gerar_tabuleiro();
-	//jogo.reiniciar();
+	jogo.reiniciar();
 	atualizar_jogo();
 }
 
@@ -50,7 +50,7 @@ function atualizar_jogo() {
 }
 
 function reiniciar_jogo() {
-	//jogo.reiniciar();
+	jogo.reiniciar();
 	atualizar_jogo();
 }
 

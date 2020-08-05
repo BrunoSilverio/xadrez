@@ -42,7 +42,7 @@ function JogoXadrez() {
 	}
 
 	// Esse método reinicia o jogo.
-	/*this.reiniciar = function() {
+	this.reiniciar = function() {
 		tab = new Tabuleiro();
 		for(var i = 0; i < 8; i++) {
 			for(var j = 0; j < 8; j++){
@@ -90,7 +90,7 @@ function JogoXadrez() {
 				 // ID_1 = 0
 			}
 		}
-	}*/
+	}
 
 	this.verificaEstados = function(){
 		if(tab.getPbP({id : B_KING,tipo : 1})) return 2;
